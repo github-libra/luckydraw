@@ -1,0 +1,199 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* Space out content a bit */
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header, .marketing, .footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Custom page header */
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+/* Custom page footer */
+
+.footer {
+    padding-top: 40px;
+    color: #777;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans;
+
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+/* Supporting marketing content */
+
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1170px;
+    }
+    /* Remove the padding we set earlier */
+    .header, .marketing, .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+.img img {
+    width: 100%;
+}
+body {
+    background-color: #005C9E;
+}
+.luck-content {
+    margin: 20px auto;
+}
+.roll {
+    font-family: Constantia;
+    font-size: 35px;
+    font-style: italic;
+    position: relative;
+    padding: 5px;
+    opacity: .8;
+    width: 100%;
+    background-color: #0071c5;
+    box-shadow: 10px 10px 14px #000;
+    border-radius: 10px;
+    border: 7px solid rgb(240, 232, 232);
+}
+.roll:hover {
+    border: 7px solid rgb(240, 232, 232);
+}
+.roll:active {
+    transform: translate(1px, 4px);
+    box-shadow: 7px 9px 4px #000;
+    opacity: 1;
+}
+.form-group input {
+    height: 3em;
+    font-size: 1.3em;
+}
+.form-group label {
+    font-size: 1.5em;
+    width: auto;
+    color: white;
+}
+.result>div>span {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    font-size: 44px;
+    font-family: Constantia;
+    color: white;
+}
+.leftarea {
+    width: 80%;
+    text-align: center;
+    float: left;
+}
+.leftarea>span.number {
+    font-size: 44px;
+    font-family: Constantia;
+    color: grey;
+    text-shadow: 5px 5px 10px #000;
+}
+.leftarea>span.number>span{
+    width: 7%;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    /*margin-left: 5px;*/
+}
+.leftarea>span.number>span.isOn {
+    font-size: 55px;
+    color: white;
+    text-shadow: 10px 10px 14px #000;
+}
+.leftarea>span.number>span.isOff {
+    /*color: white;*/
+}
+.leftarea>span.number>span.isOut {
+    top: 55px;
+    text-shadow: 10px 10px 14px #000;
+    color: white;
+    font-size: 55px;
+    font-style: italic;
+    -webkit-transition: top .5s ease-out, width .5s ease-out;
+    -moz-transition: top .5s ease-out, width .5s ease-out;
+    -ms-transition: top .5s ease-out, width .5s ease-out;
+    -o-transition: top .5s ease-out, width .5s ease-out;
+    transition: top .5s ease-out, width .5s ease-out;
+}
+.rightarea {
+    float: right;
+    width: 20%;
+}
+.rightarea>button.roll {
+    float: right;
+}
+.result {
+    font-size: 24px;
+    font-family: Constantia;
+    color: white;
+}
+.footer a {
+    color: #777;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #428bca;
+}
+.footer .glyphicon.glyphicon-heart:hover{
+    color: pink;
+}
+.img {
+    position: relative;
+}
+.img #logo{
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    width: 12%;
+    height: 15%;
+}
