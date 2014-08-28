@@ -64,11 +64,11 @@ angular.module('luck', [])
             scope.number = null;
             scope.results = [];
             scope.but = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-            var stop = true;
+            scope.stop = true;
             var promise = null;
             scope.go = function() {
-                if (stop) {
-                    stop = false;
+                if (scope.stop) {
+                    scope.stop = false;
                     var length = scope.but.length;
                     if (length !== 1) {
                         var lastIndex = 0;
@@ -80,10 +80,10 @@ angular.module('luck', [])
                         }, 100);
                     } else {
                         alert('only '+ scope.but[0] + ' left');
-                        stop = true;
+                        scope.stop = true;
                     }
                 } else {
-                    stop = true;
+                    scope.stop = true;
                     interval.cancel(promise);
                     scope.number = scope.but.pop();
                     scope.results.push(scope.number);
